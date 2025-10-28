@@ -1,0 +1,34 @@
+pizza-app/
+├─ backend/
+│  ├─ package.json
+│  ├─ .env.example
+│  ├─ server.js
+│  ├─ config/
+│  │  └─ db.js
+│  ├─ models/
+│  │  ├─ User.js
+│  │  ├─ Ingredient.js
+│  │  ├─ Pizza.js
+│  │  └─ Order.js
+│  ├─ routes/
+│  │  ├─ auth.js
+│  │  ├─ admin.js
+│  │  ├─ products.js
+│  │  └─ orders.js
+│  ├─ middleware/
+│  │  └─ auth.js
+│  └─ controllers/
+│     └─ (kept inline in routes for brevity)
+└─ frontend/
+   ├─ package.json
+   ├─ src/
+   │  ├─ index.js
+   │  ├─ App.js
+   │  ├─ pages/
+   │  │  ├─ Login.js
+   │  │  ├─ Register.js
+   │  │  ├─ Dashboard.js
+   │  │  ├─ Builder.js
+   │  │  └─ AdminDashboard.js
+   │  └─ utils/
+   │     └─ api.js
